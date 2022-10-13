@@ -1,0 +1,82 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Olympic Medals by Country",
+    "width": "container",
+    "height": 370,
+    "projection": {"type": "equalEarth"},
+    "data": {
+      "url": "graphs/spacial_map_data.json",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "datasets/olympics_medals.csv"
+          },
+          "key": "countries",
+          "fields": ["total_total"]
+        }
+      },
+      {"calculate": "datum.total_total + 0.1", "as": "Total Medals"}
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {
+        "field": "Total Medals",
+        "type": "quantitative",
+        "scale": {"type": "log"}
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "total_total", "type": "quantitative", "title": "Total Medals"}
+      ]
+    },
+    "config": {
+        "arc": {"fill": "#3366CC"},
+        "area": {"fill": "#3366CC"},
+        "path": {"stroke": "#3366CC"},
+        "rect": {"fill": "#3366CC"},
+        "shape": {"stroke": "#3366CC"},
+        "symbol": {"stroke": "#3366CC"},
+        "circle": {"fill": "#3366CC"},
+        "background": "#fff",
+        "padding": {"top": 10, "right": 10, "bottom": 10, "left": 10},
+        "style": {
+          "guide-label": {"font": "Arial, sans-serif", "fontSize": 12},
+          "guide-title": {"font": "Arial, sans-serif", "fontSize": 12},
+          "group-title": {"font": "Arial, sans-serif", "fontSize": 12}
+        },
+        "title": {
+          "font": "Arial, sans-serif",
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "dy": -3,
+          "anchor": "start"
+        },
+        "axis": {
+          "gridColor": "#ccc",
+          "tickColor": "#ccc",
+          "domain": false,
+          "grid": true
+        },
+        "range": {
+          "category": [
+            "#4285F4",
+            "#DB4437",
+            "#F4B400",
+            "#0F9D58",
+            "#AB47BC",
+            "#00ACC1",
+            "#FF7043",
+            "#9E9D24",
+            "#5C6BC0",
+            "#F06292",
+            "#00796B",
+            "#C2185B"
+          ],
+          "heatmap": ["#c6dafc", "#5e97f6", "#2a56c6"]
+        }
+      }
+}
