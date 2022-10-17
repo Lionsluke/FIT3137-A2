@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
+    "width": "container",
+    "height": 500,
+    "title": "Top 10 Countries in Total Summer Olympic Medal Tally",
+    "data": {
+      "values": [
+        {"name": "United States", "count": 2629, "flag": "🇺🇸"},
+        {"name": "Russia", "count": 1627, "flag": "🇷🇺"},
+        {"name": "Germany", "count": 1386, "flag": "🇩🇪"},
+        {"name": "Great Britain", "count": 916, "flag": "🇬🇧"},
+        {"name": "France", "count": 751, "flag": "🇫🇷"},
+        {"name": "China", "count": 634, "flag": "🇨🇳"},
+        {"name": "Italy", "count": 618, "flag": "🇮🇹"},
+        {"name": "Australia", "count": 547, "flag": "🇦🇺"},
+        {"name": "Hungary", "count": 511, "flag": "🇭🇺"},
+        {"name": "Japan", "count": 497, "flag": "🇯🇵"}
+      ]
+    },
+    "encoding": {
+      "x": {"field": "count", "type": "quantitative", "title": "medals"},
+      "y": {"field": "name", "type": "nominal", "sort": null, "title": "country"}
+    },
+    "layer": [{
+      "mark": {
+        "type": "bar",
+        "height": 5
+      },
+      "encoding": {
+        "tooltip": [
+            {"field": "name", "type": "nominal", "title": "Country"},
+            {"field": "count", "type": "quantitative", "title": "Total Medals"}
+        ]
+      }
+    }, {
+      "mark": {
+        "type": "circle",
+        "align": "center",
+        "xOffset": -1,
+        "aria": false,
+        "size": 1500,
+        "opacity": 100,
+        "color": "lightgray"
+      },
+      "encoding": {
+        "tooltip": [
+            {"field": "name", "type": "nominal", "title": "Country"},
+            {"field": "count", "type": "quantitative", "title": "Total Medals"}
+            ]
+      }
+    }, {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "xOffset": 0,
+        "aria": false,
+        "fontSize": 25
+      },
+      "encoding": {
+        "text": {"field": "flag", "type": "nominal"},
+        "tooltip": [
+            {"field": "name", "type": "nominal", "title": "Country"},
+            {"field": "count", "type": "quantitative", "title": "Total Medals"}
+        ]
+      }
+    }]
+  }

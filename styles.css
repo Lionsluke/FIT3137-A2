@@ -21,6 +21,11 @@ h5 {
     padding-top: 10px;
 }
 
+.line-text{
+    margin-left:100px;
+    margin-right: 100px
+}
+
 .demo-ribbon {
     width: 100%;
     height: 40vh;

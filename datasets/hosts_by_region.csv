@@ -1,7 +1,7 @@
-﻿name,count
-Europe,16
-North America,6
-Asia,4
-Oceania,2
-South America,1
-Africa,0
+﻿name,count,annotation
+Europe,16,
+North America,6,
+Asia,4,
+Oceania,2,Australia has hosted the 2 Oceania Summer Olympics; Melbourne 1956 and Sydney 2000.
+South America,1,
+Africa,0,

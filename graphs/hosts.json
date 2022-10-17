@@ -9,20 +9,26 @@
     },
     "encoding": {
       "y": {"field": "name", "type": "nominal", "sort": null, "title": null},
-      "x": {"field": "count", "type": "quantitative", "title": "number of times hosted"},
+      "x": {"field": "count", "type": "quantitative", "title": "number of times hosted", "scale": {"domain": [0,18]}},
       "tooltip": [
         {"field": "name", "type": "nominal", "title": "Region"},
         {"field": "count", "type": "quantitative", "title": "Games held"}
       ]
     },
     "layer": [{
-      "mark": "bar",
+      "mark": "bar"
+    }, {
+      "mark": {
+        "type": "text",
+        "lineBreak": ";",
+        "fontStyle": "italic",
+        "dx": 140,
+        "dy": -5,
+        "align": "center"
+      },
       "encoding": {
-        "color": {
-          "field": "count",
-          "type": "quantitative",
-          "title": "Number of time hosted"
-        }
+        "text": {"field": "annotation", "type": "nominal"}
       }
-    }]
+    }
+    ]
   }
