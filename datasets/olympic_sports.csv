@@ -1,0 +1,34 @@
+﻿sport,category,link,img,id
+Athletics,A,https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Athletics%2C_Tokyo_2020.svg/300px-Athletics%2C_Tokyo_2020.svg.png,img/sports/athletics.png,1
+Aquatics,A,https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Swimming%2C_Tokyo_2020.svg/300px-Swimming%2C_Tokyo_2020.svg.png,img/sports/aquatics.png,2
+Gymnastics,A,https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Gymnastics_%28Artistic%29%2C_Tokyo_2020.svg/300px-Gymnastics_%28Artistic%29%2C_Tokyo_2020.svg.png,img/sports/gymnastics.png,3
+Basketball,B,https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Basketball%2C_Tokyo_2020.svg/300px-Basketball%2C_Tokyo_2020.svg.png,img/sports/basketball.png,1
+Cycling,B,https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Cycling_%28Track%29%2C_Tokyo_2020.svg/300px-Cycling_%28Track%29%2C_Tokyo_2020.svg.png,img/sports/cycling.png,2
+Football,B,https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Football%2C_Tokyo_2020.svg/300px-Football%2C_Tokyo_2020.svg.png,img/sports/football.png,3
+Tennis,B,https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Tennis%2C_Tokyo_2020.svg/300px-Tennis%2C_Tokyo_2020.svg.png,img/sports/tennis.png,4
+Volleyball,B,https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Volleyball%2C_Tokyo_2020.svg/300px-Volleyball%2C_Tokyo_2020.svg.png,img/sports/volleyball.png,5
+Archery,C,https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Archery%2C_Tokyo_2020.svg/300px-Archery%2C_Tokyo_2020.svg.png,img/sports/archery.png,1
+Badminton,C,https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Badminton%2C_Tokyo_2020.svg/300px-Badminton%2C_Tokyo_2020.svg.png,img/sports/badminton.png,2
+Boxing,C,https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Boxing%2C_Tokyo_2020.svg/300px-Boxing%2C_Tokyo_2020.svg.png,img/sports/boxing.png,3
+Judo,C,https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Judo%2C_Tokyo_2020.svg/300px-Judo%2C_Tokyo_2020.svg.png,img/sports/judo.png,4
+Rowing,C,https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Rowing%2C_Tokyo_2020.svg/300px-Rowing%2C_Tokyo_2020.svg.png,img/sports/rowing.png,5
+Shooting,C,https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Shooting%2C_Tokyo_2020.svg/300px-Shooting%2C_Tokyo_2020.svg.png,img/sports/shooting.png,6
+Table Tennis,C,https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Table_Tennis%2C_Tokyo_2020.svg/300px-Table_Tennis%2C_Tokyo_2020.svg.png,img/sports/table_tennis.png,7
+Weightlifting,C,https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Weightlifting%2C_Tokyo_2020.svg/300px-Weightlifting%2C_Tokyo_2020.svg.png,img/sports/weightlifting.png,8
+Canoe/Kayaking,D,https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Canoeing_%28Slalom%29%2C_Tokyo_2020.svg/300px-Canoeing_%28Slalom%29%2C_Tokyo_2020.svg.png,img/sports/canoeing.png,1
+Equestrian,D,https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Equestrian_%28Jumping%29%2C_Tokyo_2020.svg/300px-Equestrian_%28Jumping%29%2C_Tokyo_2020.svg.png,img/sports/equestrian.png,2
+Fencing,D,https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Fencing%2C_Tokyo_2020.svg/300px-Fencing%2C_Tokyo_2020.svg.png,img/sports/fencing.png,3
+Handball,D,https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Handball%2C_Tokyo_2020.svg/300px-Handball%2C_Tokyo_2020.svg.png,img/sports/handball.png,4
+Field Hockey,D,https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Field_Hockey%2C_Tokyo_2020.svg/300px-Field_Hockey%2C_Tokyo_2020.svg.png,img/sports/hockey.png,5
+Sailing,D,https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Sailing%2C_Tokyo_2020.svg/300px-Sailing%2C_Tokyo_2020.svg.png,img/sports/sailing.png,6
+Taekwondo,D,https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Taekwondo%2C_Tokyo_2020.svg/300px-Taekwondo%2C_Tokyo_2020.svg.png,img/sports/taekwondo.png,7
+Triathlon,D,https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Triathlon%2C_Tokyo_2020.svg/300px-Triathlon%2C_Tokyo_2020.svg.png,img/sports/triathlon.png,8
+Wrestling,D,https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Wrestling%2C_Tokyo_2020.svg/300px-Wrestling%2C_Tokyo_2020.svg.png,img/sports/wrestling.png,9
+Modern Pentathlon,E,https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Modern_Pentathlon%2C_Tokyo_2020.svg/300px-Modern_Pentathlon%2C_Tokyo_2020.svg.png,img/sports/pentathlon.png,1
+Golf,E,https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Golf%2C_Tokyo_2020.svg/300px-Golf%2C_Tokyo_2020.svg.png,img/sports/golf.png,2
+Rugby,E,https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Rugby_Sevens%2C_Tokyo_2020.svg/300px-Rugby_Sevens%2C_Tokyo_2020.svg.png,img/sports/rugby.png,3
+Baseball/Softball,F,https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Baseball%2C_Tokyo_2020.svg/300px-Baseball%2C_Tokyo_2020.svg.png,img/sports/baseball.png,1
+Karate,F,https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Karate_%28Kata%29%2C_Tokyo_2020.svg/300px-Karate_%28Kata%29%2C_Tokyo_2020.svg.png,img/sports/karate.png,2
+Skateboarding,F,https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Skateboarding%2C_Tokyo_2020.svg/300px-Skateboarding%2C_Tokyo_2020.svg.png,img/sports/skateboarding.png,3
+Sport Climbing,F,https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Sport_Climbing%2C_Tokyo_2020.svg/300px-Sport_Climbing%2C_Tokyo_2020.svg.png,img/sports/climbing.png,4
+Surfing,F,https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Surfing%2C_Tokyo_2020.svg/300px-Surfing%2C_Tokyo_2020.svg.png,img/sports/surfing.png,5

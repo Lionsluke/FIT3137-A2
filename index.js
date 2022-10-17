@@ -28,6 +28,11 @@ vegaEmbed("#top10", top10, {"actions": false}).then(function(result) {
     // Access the Vega view instance
     //(https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+var sports = "graphs/sports.json";
+vegaEmbed("#sports", sports, {"actions": false}).then(function(result) {
+    // Access the Vega view instance
+    //(https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
 
 // other medal graphs
 var gold_map = "graphs/gold_map.json";

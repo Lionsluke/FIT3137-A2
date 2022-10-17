@@ -23,7 +23,8 @@ h5 {
 
 .line-text{
     margin-left:100px;
-    margin-right: 100px
+    margin-right: 100px;
+    text-align:center
 }
 
 .demo-ribbon {

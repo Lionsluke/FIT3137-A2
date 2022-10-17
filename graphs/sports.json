@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": ""}},
+    "width": {"step": 50},
+    "height": 350,
+    "data": {
+      "url": "datasets/olympic_sports.csv"
+    },
+    "mark": {
+        "type": "image",
+        "width": 40,
+        "height": 40
+    },
+    "encoding": {
+      "x": {
+        "field": "id",
+        "type": "nominal",
+        "axis": null
+      },
+      "y": {"field": "category", "type": "ordinal", "axis": true, "title": "IOC Popularity Category"},
+      "url": {"field": "link", "type": "nominal"},
+      "tooltip": [
+        {"field": "sport", "type": "nominal", "title": "Sport"},
+        {"field": "category", "type": "nominal", "title": "Category"}
+      ]
+    }
+  }
